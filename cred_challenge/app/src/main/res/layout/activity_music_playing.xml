@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    android:weightSum="1"
+    tools:context=".Views.music_playing">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:src="@mipmap/head_music_play"
+       android:layout_gravity="center"
+       android:layout_weight="0.1"
+       android:layout_marginTop="40dp"
+       />
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+
+        android:id="@+id/cover_img"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cake by the Ocean"
+        android:id="@+id/songname"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+
+        android:textColor="@color/white"
+        android:textSize="22dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:text="DNCE"
+        android:id="@+id/artistname"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.2"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+
+        />
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/loading"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+
+
+            />
+
+
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="#F89339"
+        android:outlineSpotShadowColor="#F89339"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:00"
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/seekbarhint"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:weightSum="1"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@null"
+            android:src="@mipmap/remove"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:src="@mipmap/back"
+            android:background="@null"
+            android:id="@+id/previous"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@null"
+            android:id="@+id/playbtn"
+            android:src="@mipmap/play"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:id="@+id/pausebtn"
+            android:src="@mipmap/pause"
+            android:background="@null"
+            android:visibility="gone"
+            />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:src="@mipmap/next"
+            android:background="@null"
+            android:id="@+id/next"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@null"
+            android:src="@mipmap/add"
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/credits"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_weight="0.3"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
