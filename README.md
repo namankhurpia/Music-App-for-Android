@@ -27,6 +27,12 @@
 <br><br>
 <br>Overall the app has custom fonts, best ui, 
 <br>
+![alt text](https://raw.githubusercontent.com/namankhurpia/Cred_music_app/master/ui%20screens/splash%20%E2%80%93%207.png)
+![alt text](https://raw.githubusercontent.com/namankhurpia/Cred_music_app/master/ui%20screens/splash%20%E2%80%93%208.png)
+![alt text](https://raw.githubusercontent.com/namankhurpia/Cred_music_app/master/ui%20screens/splash%20%E2%80%93%209.png)
+![alt text](https://raw.githubusercontent.com/namankhurpia/Cred_music_app/master/ui%20screens/splash%20%E2%80%93%2010.png)
+
+
 <br>for my port folio please visit -  http://naman.xyz
 <br>
 <br>Naman Khurpia
