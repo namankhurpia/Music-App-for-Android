@@ -1,4 +1,4 @@
-# Cred_music_app<br>
+# MUSIC_APP<br>
 <br>A music app  - allows to play music just like spotify
 <br>
 <br>
