@@ -1,7 +1,7 @@
 # Cred_music_app<br>
-<br>A music app by cred - allows to play music just like spotify
+<br>A music app  - allows to play music just like spotify
 <br>
-<br>The App is nearly completed but due to time constraints, I am not able to implement some features in the app.
+<br>
 <br>Source code is uploaded on github for your reference - https://github.com/namankhurpia/Music-App-for-Android
 <br>For designing i used Adobe XD - the scrennshots and XD file is included in the zip
 
@@ -35,5 +35,3 @@
 
 <br>for my port folio please visit -  http://naman.xyz
 <br>
-<br>Naman Khurpia
-<br>or email - namankhurpia2@gmail.com
