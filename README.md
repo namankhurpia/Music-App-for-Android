@@ -6,6 +6,7 @@
 <br>For designing i used Adobe XD - the scrennshots and XD file is included in the zip
 
 
+
 <br><br>
 <br>The app has the following functionalities - 
 
